@@ -28,7 +28,7 @@ Things you may want to cover:
 |------|----|-------|
 |email|string|null: false|
 |password|string|null: false|
-|username|string|null: false|
+|name|string|null: false|
 ### Assocition
 - has_many :messages
 - has_many :groups_users
@@ -48,7 +48,7 @@ Things you may want to cover:
 ## groupsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|groupname|string|null: false|
+|name|string|null: false|
 ### Assocition
 - has_many :messages
 - has_many :groups_users
