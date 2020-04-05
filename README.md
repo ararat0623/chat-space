@@ -43,7 +43,7 @@ Things you may want to cover:
 |group_id|integer|null: false, foreign_key: true|
 ### Assocition
 - belongs_to :user
-- belongs_to :groups
+- belongs_to :group
 
 ## groupsテーブル
 |Column|Type|Options|
